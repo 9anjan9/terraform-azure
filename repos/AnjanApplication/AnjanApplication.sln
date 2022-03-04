@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnjanApplication", "AnjanApplication\AnjanApplication.csproj", "{C7F40EA1-6401-4F25-9975-9F16133A9317}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7F40EA1-6401-4F25-9975-9F16133A9317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7F40EA1-6401-4F25-9975-9F16133A9317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7F40EA1-6401-4F25-9975-9F16133A9317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7F40EA1-6401-4F25-9975-9F16133A9317}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {615A1A50-6FBB-4CDD-9702-CB448A405AE1}
+	EndGlobalSection
+EndGlobal

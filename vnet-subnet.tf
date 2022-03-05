@@ -3,11 +3,10 @@ resource "azurerm_virtual_network" "myterraformNetwork" {
     address_space = ["10.0.0.0/16"]
     location = var.location
     resource_group_name = azurerm_resource_group.myterraformGroup.name
-
     tags = var.tags
 }
 
-resource "azurerm_subnet" "myterraformSubnet" {
+resource "azurerm_subnet" "myterraformsubnet" {
   name                 = var.subnetname
   resource_group_name  = azurerm_resource_group.myterraformGroup.name
   virtual_network_name = azurerm_virtual_network.myterraformNetwork.name

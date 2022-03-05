@@ -21,3 +21,7 @@ variable "vnetname" {
 variable "ipaddressname" {
     type = string
 }
+
+variable "nsgname" {
+    type = string
+}

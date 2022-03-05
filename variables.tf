@@ -29,3 +29,7 @@ variable "nsgname" {
 variable "nicname" {
     type = string
 }
+
+variable "virtualMachineName" {
+    type = string
+}

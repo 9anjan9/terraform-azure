@@ -17,3 +17,7 @@ variable "subnetname" {
 variable "vnetname" {
     type = string
 }
+
+variable "ipaddressname" {
+    type = string
+}
